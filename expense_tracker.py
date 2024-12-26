@@ -1,5 +1,6 @@
 import datetime
 
+
 expenses = []
 def enter_data():
     catagary = input("Enter Catagary: ")
@@ -46,9 +47,9 @@ def view_summary():
               
 while True:
     print("\nPersonal Expense Tracker")
-    print("1. Add Expense")
-    print("2. View Expenses")
-    print("3. View Summary")
+    print("1. Add Expense :")
+    print("2. View Expenses :")
+    print("3. View Summary :")
     print("4. Exit")
 
     choice = input("Enter your choice: ")
